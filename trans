@@ -1,0 +1,36 @@
+#!/bin/bash
+
+LANG=""
+TEXT=""
+FILE=""
+
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -l|--lang) LANG="$2"; shift ;;
+        -t|--text) TEXT="$2"; shift ;;
+        -f|--file) FILE="$2"; shift ;;
+        *) echo "Usage: trans (--lang|-l) <INPUT LANG> ((--text|-t) '<PROMPT>' | (--file|-f) '<FILENAME>')"
+           exit 1
+           ;;
+    esac
+    shift
+done
+
+if { [[ -z $TEXT && -z $FILE ]] || [[ -n $TEXT && -n $FILE ]]; } || [[ -z $LANG ]]; then
+    echo "Usage: trans (--lang|-l) <INPUT LANG> ((--text|-t) '<PROMPT>' | (--file|-f) '<FILENAME>')"
+    exit 1
+fi
+
+if [[ -n $FILE ]]; then
+    if [[ ! $FILE == *.txt ]]; then
+        echo "Error: The file must have a .txt extension."
+        exit 1
+    fi
+    if [[ ! -f $FILE ]]; then
+        echo "File not found: $FILE"
+        exit 1
+    fi
+    TEXT=$(tr '\n' ' ' < "$FILE")
+fi
+
+python -W ignore /usr/local/bin/model.py "$LANG" "$TEXT"
