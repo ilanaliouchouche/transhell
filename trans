@@ -33,4 +33,4 @@ if [[ -n $FILE ]]; then
     TEXT=$(tr '\n' ' ' < "$FILE")
 fi
 
-python -W ignore /usr/local/bin/model.py "$LANG" "$TEXT"
+python -W ignore /usr/local/bin/model_trans.py "$LANG" "$TEXT"
