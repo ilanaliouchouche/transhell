@@ -9,7 +9,7 @@ Follow these steps to install the `trans` command on your system:
 
 1. **Clone the Repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/ilanaliouchouche/transhell.git
     ```
 2. **Grant Execution Permission**:
    Navigate to the project directory in your terminal:
