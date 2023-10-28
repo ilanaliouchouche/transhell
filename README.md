@@ -41,4 +41,4 @@ trans (--lang|-l) <INPUT LANG> ((--text|-t) '<PROMPT>' | (--file|-f) '<FILENAME>
 - `--text` or `-t`: Provide the text you want to translate in single quotes.
 - `--file` or `-f`: Provide the filename of the .txt file you want to translate.
 
-Happy translating! 🌍
+ 🌍
