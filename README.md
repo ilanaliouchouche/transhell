@@ -1,5 +1,5 @@
 
-# Commande `trans`: Direct Translation in Terminal for Text and .txt Files (Linux)
+# `trans`: Direct Translation in Terminal for Text and .txt Files (Linux)
 
 Easily translate text or content from .txt files directly within your terminal using the `trans` command.
 
