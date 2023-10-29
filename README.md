@@ -1,3 +1,4 @@
+🚧🚧🚧🚧
 
 # `trans`: Direct Translation in Terminal for Text and .txt Files (Linux)
 
@@ -11,6 +12,7 @@ Follow these steps to install the `trans` command on your system:
     ```bash
     git clone https://github.com/ilanaliouchouche/transhell.git
     ```
+
 2. **Grant Execution Permission**:
    Navigate to the project directory in your terminal:
     ```bash
@@ -41,4 +43,12 @@ trans (--lang|-l) <INPUT LANG> ((--text|-t) '<PROMPT>' | (--file|-f) '<FILENAME>
 - `--text` or `-t`: Provide the text you want to translate in single quotes.
 - `--file` or `-f`: Provide the filename of the .txt file you want to translate.
 
- 🌍
+## 📋 To Do
+
+In the upcoming development stages, we plan to:
+
+1. **Model Finetuning**: We will work on finetuning a translation model. This model will be directly used by the `trans` command to provide more accurate and tailored translations.
+   
+2. **Streaming Integration**: We aim to incorporate a streaming feature in the terminal, allowing for token-by-token translation generation, for a more seamless and interactive user experience.
+
+🌍
