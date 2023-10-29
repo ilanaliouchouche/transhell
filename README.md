@@ -35,7 +35,7 @@ Follow these steps to install the `trans` command on your system:
 To use the `trans` command, follow the structure below:
 
 ```bash
-trans (--lang|-l) <INPUT LANG> ((--text|-t) '<PROMPT>' | (--file|-f) '<FILENAME>')
+trans (--lang|-l) <INPUT LANG> ((--text|-t) "<PROMPT>" | (--file|-f) "<FILENAME>")
 ```
 
 ### Parameters:
