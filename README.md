@@ -49,4 +49,8 @@ In the upcoming development stages, we plan to:
 
 1. **Streaming Integration**: We aim to incorporate a streaming feature in the terminal, allowing for token-by-token translation generation, for a more seamless and interactive user experience.
 
+2. :warning::warning::warning: **Data Collection**: Collect PDFs of mini dictionaries from language1 to language2.
+
+3. **Embedding**: After collecting the documents, build a Vector Database by embedding the documents
+
 🌍
