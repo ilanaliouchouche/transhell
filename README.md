@@ -51,6 +51,6 @@ In the upcoming development stages, we plan to:
 
 2. :warning::warning::warning: **Data Collection**: Collect PDFs of mini dictionaries from language1 to language2.
 
-3. **Embedding**: After collecting the documents, build a Vector Database by embedding the documents
+3. **Embedding**: After collecting the documents, build a Vector Database by embedding the documents.
 
 🌍
