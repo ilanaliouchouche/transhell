@@ -1,3 +1,8 @@
-langchain
-transformers
-torch
+langchain==0.0.315
+transformers==4.35.0
+torch==2.1.0
+python-dotenv==1.0.0
+psycopg2==2.9.9
+datasets==2.14.6
+pandas==2.1.3
+vllm==0.2.1.post1
